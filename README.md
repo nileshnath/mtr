@@ -102,9 +102,3 @@ npm run preview
 ```
 
 ---
-
-## 📞 Factory Contact & Legal Info
-
-*   **Legal Entity:** MTR Fashion
-*   **GSTIN:** `08BYVPN2162G1Z0`
-*   **Factory Address:** Front of Char Bhuja Mandir, Brahma Temple Road, Near Kapaleshwar Temple, Badi Basti, Pushkar, Rajasthan 305022, India

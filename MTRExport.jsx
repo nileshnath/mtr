@@ -34,7 +34,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image.jpg',
+    image: 'item/shared%20image.jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -64,7 +64,7 @@ const PRODUCTS = [
     category: 'Short Dresses',
     material: 'Rayon Silk Blend',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(1).jpg',
+    image: 'item/shared%20image%20(1).jpg',
     dressType: 'short',
     pricing: [
       { qty: '100 Pcs', inr: 400 },
@@ -94,7 +94,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(2).jpg',
+    image: 'item/shared%20image%20(2).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -124,7 +124,7 @@ const PRODUCTS = [
     category: 'Co-ord Sets',
     material: 'Embroidered Cotton',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(3).jpg',
+    image: 'item/shared%20image%20(3).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -154,7 +154,7 @@ const PRODUCTS = [
     category: 'Short Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(4).jpg',
+    image: 'item/shared%20image%20(4).jpg',
     dressType: 'short',
     pricing: [
       { qty: '100 Pcs', inr: 400 },
@@ -184,7 +184,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(5).jpg',
+    image: 'item/shared%20image%20(5).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -214,7 +214,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Rayon Silk Blend',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(6).jpg',
+    image: 'item/shared%20image%20(6).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -244,7 +244,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(7).jpg',
+    image: 'item/shared%20image%20(7).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -274,7 +274,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Embroidered Cotton',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(8).jpg',
+    image: 'item/shared%20image%20(8).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -304,7 +304,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Rayon Silk Blend',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(9).jpg',
+    image: 'item/shared%20image%20(9).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -334,7 +334,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(10).jpg',
+    image: 'item/shared%20image%20(10).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -364,7 +364,7 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(11).jpg',
+    image: 'item/shared%20image%20(11).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -394,7 +394,7 @@ const PRODUCTS = [
     category: 'Co-ord Sets',
     material: 'Rayon Silk Blend',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(12).jpg',
+    image: 'item/shared%20image%20(12).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -424,8 +424,8 @@ const PRODUCTS = [
     category: 'Long Dresses',
     material: 'Cotton Block Print',
     moqTier: '100 PC',
-    image: '/item/shared%20image%20(14).jpg',
-    altImage: '/item/shared%20image%20(13).jpg',
+    image: 'item/shared%20image%20(14).jpg',
+    altImage: 'item/shared%20image%20(13).jpg',
     dressType: 'long',
     pricing: [
       { qty: '100 Pcs', inr: 495 },
@@ -2585,7 +2585,7 @@ function Footer({ setActiveTab }) {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-5">
               <img
-                src="/item/Logo.jpg"
+                src="item/Logo.jpg"
                 alt="MTR Fashion Logo"
                 className="h-14 w-14 object-contain rounded-lg flex-shrink-0"
               />
@@ -2834,7 +2834,7 @@ export default function MTRExport() {
               className="flex items-center gap-3 flex-shrink-0"
             >
               <img
-                src="/item/Logo.jpg"
+                src="item/Logo.jpg"
                 alt="MTR Fashion Logo"
                 className="h-12 w-12 object-contain rounded-lg"
               />
